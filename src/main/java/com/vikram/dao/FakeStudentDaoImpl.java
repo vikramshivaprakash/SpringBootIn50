@@ -1,6 +1,6 @@
-package com.yourname.dao;
+package com.vikram.dao;
 
-import com.yourname.entity.Student;
+import com.vikram.entity.Student;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Repository;
 

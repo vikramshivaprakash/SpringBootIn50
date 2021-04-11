@@ -1,7 +1,7 @@
-package com.yourname.service;
+package com.vikram.service;
 
-import com.yourname.dao.StudentDao;
-import com.yourname.entity.Student;
+import com.vikram.dao.StudentDao;
+import com.vikram.entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
@@ -12,7 +12,7 @@ import java.util.Collection;
 public class StudentService {
 
     @Autowired
-    @Qualifier("mongoData")
+    @Qualifier("fakeData")
     private StudentDao studentDao;
 
     public Collection<Student> getAllStudents(){

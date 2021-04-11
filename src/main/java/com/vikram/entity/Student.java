@@ -1,4 +1,4 @@
-package com.yourname.entity;
+package com.vikram.entity;
 
 public class Student {
 

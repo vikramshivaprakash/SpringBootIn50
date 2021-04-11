@@ -1,7 +1,7 @@
-package com.yourname.controller;
+package com.vikram.controller;
 
-import com.yourname.entity.Student;
-import com.yourname.service.StudentService;
+import com.vikram.entity.Student;
+import com.vikram.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
@@ -31,7 +31,7 @@ public class StudentController {
     }
 
     @RequestMapping(method = RequestMethod.PUT, consumes = MediaType.APPLICATION_JSON_VALUE)
-    public void deleteStudentById(@RequestBody Student student){
+    public void updateStudent(@RequestBody Student student){
         studentService.updateStudent(student);
     }
 
